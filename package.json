@@ -1,6 +1,6 @@
 {
-  "name": "react-native-header-title",
-  "version": "1.0.1",
+  "name": "react-native-headertitle",
+  "version": "1.0.3",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -35,7 +35,7 @@
     "preset": "react-native"
   },
   "description": "header-title",
-  "main": "App.tsx",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Amuthan2306/Headertitle.git"
