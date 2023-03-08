@@ -7,7 +7,7 @@ import {
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons'
 
 
-const App = (props) => {
+const Headertitle = (props) => {
   const {
     text,
     onPress,
@@ -63,4 +63,4 @@ const App = (props) => {
   );
 }
 
-export default App;
+export default Headertitle;

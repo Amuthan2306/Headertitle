@@ -1,7 +1,6 @@
 {
-  "name": "Headertitle",
-  "version": "0.0.1",
-  "private": true,
+  "name": "react-native-header-title",
+  "version": "1.0.1",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -34,5 +33,20 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "description": "header-title",
+  "main": "App.tsx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amuthan2306/Headertitle.git"
+  },
+  "keywords": [
+    "ui-changes"
+  ],
+  "author": "amuthan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amuthan2306/Headertitle/issues"
+  },
+  "homepage": "https://github.com/Amuthan2306/Headertitle#readme"
 }
