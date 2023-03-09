@@ -15,6 +15,7 @@ npm i react-native-header-title
 
 # Example
 import Headertitle from "react-native-headertitle"
+```js
  <Headertitle
         text='text'
         text_fontSize={Number}
@@ -29,7 +30,7 @@ import Headertitle from "react-native-headertitle"
         width={Number}
         text_fontWeight={Number}
         />
-        
+    ```
         
         
         
