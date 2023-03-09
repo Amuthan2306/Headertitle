@@ -1,5 +1,5 @@
 {
-  "name": "react-native-headertitle",
+  "name": "reat-native-headertitle",
   "version": "1.0.9",
   "scripts": {
     "android": "react-native run-android",
@@ -43,7 +43,7 @@
   "keywords": [
     "react-native-headertitle"
   ],
-  "author": "amuthan",
+  "author": "AmuthanSekar",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Amuthan2306/Headertitle/issues"
