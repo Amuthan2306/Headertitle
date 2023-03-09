@@ -14,23 +14,26 @@ Prerequisites:
 npm i react-native-header-title
 
 # Example
-import Headertitle from "react-native-headertitle"
+
 ```js
+import Headertitle from "react-native-headertitle"
+
  <Headertitle
         text='text'
-        text_fontSize={Number}
-        borderColor={color} 
-        height={Number} 
-        arrow_size={Number} 
-        backgroundColor={Color}
         onPress={onPress}
-        arrow_color={color}
-        text_color={color}
-        height={Number}
-        width={Number}
-        text_fontWeight={Number}
         />
     ```
-        
-        
+# Props
+
+ text_fontSize    - Number
+ height           - Number
+ width            - Number
+ backgroundColor  - string
+ arrow_size       - Number
+ arrow_color      - color
+ borderColor      - color 
+ text_color       - color
+ text_fontWeight  - Number
+
+      
         
