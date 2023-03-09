@@ -4,7 +4,6 @@ import {
   TouchableOpacity,
   View,
 } from 'react-native';
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons'
 
 
 const Headertitle = (props) => {
@@ -13,24 +12,26 @@ const Headertitle = (props) => {
     onPress,
     backgroundColor,
     borderColor,
-    arrow_size,
-    arrow_color,
     text_color,
     height,
     width,
     text_fontSize,
-    text_fontWeight
+    text_fontWeight,
+    tintColor,
+    arrow_height,
+    arrow_width,
+    borderBottomWidth
   } = props
   return (
     <View style={{
       height: height,
-      width:width ,
+      width: width,
       flexDirection: 'row',
       backgroundColor: backgroundColor,
       alignItems: 'center',
       alignSelf: 'center',
       alignContent: 'center',
-      borderBottomWidth: 2,
+      borderBottomWidth: borderBottomWidth,
       borderColor: borderColor
     }}>
       <View style={{
@@ -41,7 +42,7 @@ const Headertitle = (props) => {
         justifyContent: 'center'
       }}>
         <TouchableOpacity onPress={onPress}>
-          <Icon name='arrow-left' size={arrow_size} color={arrow_color} />
+          <Image source={require('./src/assets/arrow.png')} style={{ height: arrow_height, width: arrow_width, tintColor: tintColor }} />
         </TouchableOpacity>
 
       </View>
