@@ -23,20 +23,16 @@ import Headertitle from "react-native-headertitle"
         onPress={onPress}
         />
     ```
-
-
-# Props
-
+# Options
  text_fontSize    - Number
  height           - Number
  width            - Number
  backgroundColor  - string
+ arrow_size       - Number
+ arrow_color      - color
  borderColor      - color 
  text_color       - color
  text_fontWeight  - Number
- tintColor        - color
- arrow_height     - Number
- arrow_width      - Number
 
       
         
