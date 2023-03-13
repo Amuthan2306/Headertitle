@@ -33,6 +33,9 @@ import Headertitle from "react-native-headertitle"
  borderColor      - color 
  text_color       - color
  text_fontWeight  - Number
+borderBottomWidth - Number
 
+# Development
+Amuthan.S React native Development
       
         

@@ -20,7 +20,9 @@ const Headertitle = (props) => {
     width,
     text_fontSize,
     text_fontWeight,
-    icon
+    icon,
+    borderBottomWidth,
+    borderRadius
   } = props
   return (
     <View style={{
@@ -31,7 +33,8 @@ const Headertitle = (props) => {
       alignItems: 'center',
       alignSelf: 'center',
       alignContent: 'center',
-      borderBottomWidth: 2,
+      borderRadius:borderRadius,
+      borderBottomWidth: borderBottomWidth,
       borderColor: borderColor
     }}>
       <View style={{
