@@ -8,22 +8,25 @@ A simple and fully customizable cross-platform React Native component that imple
 Prerequisites:
 "react":"18.2.0",
 "react-native": "0.71.3",
-"react-native-vector-icons": "^9.2.0",
 
 # Install
 npm i react-native-header-title
+
+## Development
+AmuthanSekar React native Development  
 
 # Example
 
 ```js
 import Headertitle from "react-native-headertitle"
 
- <Headertitle
+        <Headertitle
         text='text'
         onPress={onPress}
         />
-    ```
-# Options
+
+# Props
+
  text_fontSize    - Number
  height           - Number
  width            - Number
@@ -33,9 +36,8 @@ import Headertitle from "react-native-headertitle"
  borderColor      - color 
  text_color       - color
  text_fontWeight  - Number
-borderBottomWidth - Number
-
-# Development
-Amuthan.S React native Development
+ borderBottomWidth- Number
+ icon             - string
+ borderRadius     - Number
       
         
