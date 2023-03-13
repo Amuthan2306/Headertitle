@@ -19,7 +19,8 @@ const Headertitle = (props) => {
     height,
     width,
     text_fontSize,
-    text_fontWeight
+    text_fontWeight,
+    icon
   } = props
   return (
     <View style={{
@@ -41,7 +42,7 @@ const Headertitle = (props) => {
         justifyContent: 'center'
       }}>
         <TouchableOpacity onPress={onPress}>
-          <Icon name='arrow-left' size={arrow_size} color={arrow_color} />
+          <Icon name={icon} size={arrow_size} color={arrow_color} />
         </TouchableOpacity>
 
       </View>
